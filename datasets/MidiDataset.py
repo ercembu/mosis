@@ -3,13 +3,13 @@ import os
 import torch
 import numpy as np
 import matplotlib.pyplot as plt
-from typing import List
+from typing import List, Optional
 from torch.utils.data import Dataset, DataLoader
 
 class MidiDataset(Dataset):
     """Midi Songs dataset."""
 
-    def __init__(self, root_folder='datasets/', sets=[]: List[str]):
+    def __init__(self, root_folder: Optional[str] ='datasets/', sets=[]: List[str]):
         """
         Args:
             sets (list[string]): names of the set of data to be used
