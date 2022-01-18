@@ -52,7 +52,7 @@ pillow=8.4.0=py38h5aabda8_0
 pip=21.2.4=py38h06a4308_0
 pretty-midi=0.2.9=pypi_0
 progressbar2=3.50.0=pypi_0
-pycparser=2.21=pypi_0
+pycparser=2.19=pypi_0
 pypianoroll=1.0.4=pypi_0
 pysoundfile=0.9.0.post1=pypi_0
 python=3.8.12=h12debd9_0
